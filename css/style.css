@@ -1,0 +1,44 @@
+.page_header{
+    color: darkviolet;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+h3{
+    color: gold;
+    font-size: 32px;
+    text-align: center;
+}
+body{
+    font-family: 'Ranchers', cursive;    
+
+}
+
+iframe, img{
+    border-radius: 31px 31px 31px 31px;
+    -moz-border-radius: 31px 31px 31px 31px;
+    -webkit-border-radius: 31px 31px 31px 31px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+img{
+    margin-bottom: 5%;
+}
+
+
+
+.pizza_images{
+
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 14px 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
