@@ -3,14 +3,20 @@
     font-size: 42px;
     text-align: center;
     margin-bottom: 100px;
+    
 }
-h3{
+.h3_main{
     color: gold;
     font-size: 32px;
     text-align: center;
+    
 }
 body{
-    font-family: 'Ranchers', cursive;    
+    
+    width: 100%;
+    padding: 0;
+    margin: 0;  
+    font-family: 'Ranchers', cursive;  
 
 }
 
@@ -42,3 +48,54 @@ img{
     flex-direction: row;
 
 }
+.nav_bar{
+  padding: 15px 15px 15px 15px;
+
+}
+ul {
+    border-radius: 0px 0px 15px 15px;
+    list-style-type: none;
+    margin-top: 0;
+    overflow: hidden;
+    /* position: fixed; */
+    background-color:	#398684;
+    /* width: 80%;
+    margin-left: 10%; */
+    height:100%;
+    padding-left: 0;
+  }
+  
+  li {
+    float: left;
+    
+  
+  }
+
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 28px;
+    text-decoration: none;
+    font-family: 'Galada', cursive;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(216, 207, 207, 0.774);
+  }
+  
+  .active {
+    background-color: #e478e4;
+  }
+  #contact_info, #location{
+    margin-left: 40%;
+    font-family: 'Galada', cursive;
+    margin-bottom: 25%;
+  }
+
+  
