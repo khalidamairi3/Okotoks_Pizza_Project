@@ -36,6 +36,7 @@ img{
 
 
 
+
 .pizza_images{
 
     width: 80%;
@@ -55,7 +56,13 @@ img{
 article, section{
   width: 70%;
   margin-left: 15%;
-  margin-bottom: 100px;
+}
+
+/* followed selector */
+section + article { 
+
+  margin-top: 100px;
+
 }
 div ul{
     border-radius: 0px 0px 15px 15px;
@@ -69,14 +76,12 @@ div ul{
     height:100%;
     padding-left: 0;
   }
-  
-  div ul li {
+    /* descendant selector */
+  div li {
     float: left;
-    
-  
   }
 
-  
+  /* descendant selector */
   li a {
     display: block;
     color: white;
@@ -90,7 +95,8 @@ div ul{
     
   }
   
-  li a:hover:not(.active) {
+   /* child selector */
+  li>a:hover:not(.active) {
     background-color: rgba(216, 207, 207, 0.774);
   }
   
@@ -101,6 +107,29 @@ div ul{
     margin-left: 40%;
     font-family: 'Galada', cursive;
     margin-bottom: 25%;
+  }
+
+  #contact_info a:link{
+
+    color: black;
+
+
+  }
+  #contact_info a:visited{
+
+    color: purple;
+  
+  }
+  #contact_info a:active{
+
+    background-color:rgb(50, 192, 50);
+  
+  }
+
+  #contact_info a:hover{
+
+    color: rgb(47, 57, 201);
+  
   }
 
   
