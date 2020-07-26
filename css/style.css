@@ -3,39 +3,10 @@
   padding: 0;
 }
 body{
-  margin: 0;
   font-family: 'Galada', cursive;
-  /* background-color: yellow; */
  
 }
-/* .nav-bar ul{
-  border-radius: 0px 0px 15px 15px;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    top: 0;
-    width: 100%;
-    padding-left: 0;
-    background: rgb(164,18,18);
-background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(0,0,0,1) 75%);
-}
 
-.nav-bar li{
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 1.3em 1em 0.7em 1em;
-  font-size: 2em;
-  letter-spacing: 0.2em;
-}
-.nav-bar a{
-
-  color: white;
-  text-decoration: none;
-  
-
-
-} */
 
 #logo{
   padding-top: 1em;
@@ -56,10 +27,8 @@ background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(0,0,0,1) 75%);
   border-radius: 0px 0px 15px 15px;
   overflow: hidden;
   min-height: 10vh;
-  /* padding-bottom: 5%; */
   justify-items: center;
   align-items: center;
-  /* grid-area: navbar; */
   width: 100%;
   background: rgb(164,18,18);
   font-size: 18pt;
@@ -94,12 +63,10 @@ background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(0,0,0,1) 75%);
 }
 
 .navbar-items{
-  /* margin-top: 10%; */
+  
   min-width: 5vw;
 }
-.telephone{
-  /* grid-column: 5/6; */
-}
+
 #content-2{
   margin-top: 5vh;
   min-height: 30vh;
@@ -113,7 +80,7 @@ background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(0,0,0,1) 75%);
   width: 100%;
   height: 100%;
   text-align: center;
-  /* border: 2px solid red; */
+
 }
 #content-1 {
  
@@ -148,13 +115,11 @@ background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(0,0,0,1) 75%);
 
 }
 #main-card img{
- /* padding: 10% 20%;  */
   border-radius: 50%;
   width: 100%;
 }
 #main-card-text{
   width: 70%;
-  /* margin-left: 15%; */
   text-align: center;
 }
 
@@ -170,9 +135,7 @@ button{
 
 .content-2-card{
   background: rgb(164,18,18);
-  background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(163,24,24,1) 4%, rgba(144,120,120,1) 62%);
-  /* background-image: url("https://previews.123rf.com/images/kusuriuri/kusuriuri1707/kusuriuri170700004/81636917-seamless-pattern-with-pizza-design-elements-on-white-background.jpg"); */
-  
+  background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(163,24,24,1) 4%, rgba(144,120,120,1) 62%);  
   border-radius: 15px 15px 15px 15px;
 
 }
