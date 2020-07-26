@@ -53,9 +53,15 @@ body{
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+
+}
+#navbar a:hover{
+  font-size: 36pt;
+  color: #A41212;
   
-
-
 }
 .title{
   margin-top: 1.6vh;
@@ -66,7 +72,12 @@ body{
   
   min-width: 5vw;
 }
-
+#main-card-text>h2{
+  animation-name: changeColor;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
 #content-2{
   margin-top: 5vh;
   min-height: 30vh;
@@ -80,6 +91,7 @@ body{
   width: 100%;
   height: 100%;
   text-align: center;
+  min-height: 40vh;
 
 }
 #content-1 {
@@ -114,6 +126,7 @@ body{
  
 
 }
+
 #main-card img{
   border-radius: 50%;
   width: 100%;
@@ -134,9 +147,17 @@ button{
 }
 
 .content-2-card{
+
   background: rgb(164,18,18);
   background: radial-gradient(circle, rgba(164,18,18,1) 0%, rgba(163,24,24,1) 4%, rgba(144,120,120,1) 62%);  
   border-radius: 15px 15px 15px 15px;
+  transition: 0.7s all ease-out;
+
+
+}
+.content-2-card:hover{
+
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 }
 .content-2-card>img{
@@ -158,5 +179,28 @@ button{
 .footer>div{
   
   margin-top: 5vh;
+
+}
+#content-1 h2{
+  font-size: 24pt ;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+@keyframes changeColor {
+  20%{
+    color: white;
+  }
+  40%{
+    color: purple;
+  }
+  60%{
+    color:yellow;
+  }
+  80%{
+    color: rgba(144,120,120,1);
+  }
+  100%{
+    color: green;
+  }
 
 }
